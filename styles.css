@@ -1,6 +1,6 @@
 header {
   border-bottom: 1px solid #f9f7fe;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .search-input {
@@ -22,4 +22,46 @@ header {
   padding: 20px;
   line-height: 1;
   border-radius: 5px;
+}
+
+.weather-app {
+  background: white;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border-style: dotted;
+  border-width: 30px;
+  border-color: darkgreen;
+}
+
+h1 {
+  font-family: "Playwrite CA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+}
+
+.weather_stats {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.current_weather {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.future-days {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
 }

@@ -9,10 +9,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playwrite+CA&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css" />
     <title>Marlo's Weather Application</title>
   </head>
   <body>
+    <div class="weather-app">
     <header>
       <form id="searchform">
         <input
@@ -34,12 +39,12 @@
         Humdity: <span id="humidity"></span> 44% , Wind:
         <span id="wind">25 mph</span>
       </div>
-      <div class="current_weather"></div>
+      <div class="current_weather">
       <span id="weather_emoji">&#128512;</span>
-      <span id="current_temp">Waiting on the city!</span>
+      <span id="current_temp">Something °Degrees</span></div>
       <br />
 
-      <div class="future days">
+      <div class="future-days">
         <span id="day_1">Monday: </span>
         <span id="day_1emoji">&#128511;</span><span id="day1temp">15°</span>
         <span id="day_2">Monday: </span> <span id="day_2emoji">&#128511;</span>
@@ -49,6 +54,9 @@
         ><span id="day4temp">15°</span> <span id="day_5">Monday: </span>
         <span id="day_5emoji">&#128511;</span><span id="day5temp">15°</span>
       </div>
+
+    </div>
+  
     </main>
 
     <footer>Built by Marlo Peralta</footer>
