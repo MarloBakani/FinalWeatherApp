@@ -1,6 +1,7 @@
 header {
   border-bottom: 1px solid #f9f7fe;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .search-input {
@@ -25,13 +26,13 @@ header {
 }
 
 .weather-app {
-  background: white;
-  max-width: 700px;
+  background: #d38889;
+  max-width: 900px;
   margin: 30px auto;
   padding: 20px;
-  border-style: dotted;
+  border-style: double;
   border-width: 30px;
-  border-color: darkgreen;
+  border-color: #2b5844;
 }
 
 h1 {
@@ -45,23 +46,21 @@ h1 {
 .weather_stats {
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
-  font-size: 40px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.current_weather {
-  font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 40px;
+.right-column {
+  font-size: 55px;
 }
 
 .future-days {
   font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  font-size: 40px;
+  font-size: 25px;
 }
