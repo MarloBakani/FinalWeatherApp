@@ -74,6 +74,6 @@ p {
   text-align: center;
 }
 
-img {
+#weather_emoji {
   transform: scale(1.25);
 }
