@@ -64,3 +64,12 @@ h1 {
   font-style: normal;
   font-size: 25px;
 }
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+}
